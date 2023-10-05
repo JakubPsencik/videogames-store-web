@@ -1,0 +1,432 @@
+/* CSS HEX */
+:root {
+  --primary-color: #0d0043;
+  --secondary-color: #ffd118;
+  --button-text-color: #F34213;
+  --arcade-green-color: #77ff77;
+  --about-section-color: #FFF4EC;
+}
+
+body
+{
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.greetingsText {
+  color: white;
+  padding-top: 100px;
+}
+
+.navbar {
+  background: none;
+}
+
+.navbar.scrolled {
+  background: var(--primary-color);
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.navbar-brand img {
+ margin-top: 5%;
+ margin-left: 10%;
+ max-height: 100px;
+ width: auto;
+ border-radius: 15%;
+ transform: rotate(-3deg);
+ box-shadow: 5px 5px 8px var(--secondary-color);
+
+}
+
+.about-section {
+  padding: 0.7rem;
+  
+}
+
+.about-working-hours {
+  border-left: 2px solid var(--button-text-color);
+  padding-left: 3.5rem;
+}
+
+.subscribe-btn {
+
+  background-color: var(--secondary-color);
+
+}
+
+.opening-text {
+
+  padding: 2%;
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
+  display: block;
+  box-sizing: border-box;
+
+}
+
+#paragraph1 {
+
+  font-size: large;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: relative;
+  margin: 2% auto;
+  left: 0;
+  right: 0;
+  display: block;
+  box-sizing: border-box;
+  padding: 2px;
+  padding-left: 5px;
+}
+
+.platform-image {
+
+  background-size: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: relative;
+
+  left: 0;
+  right: 0;
+  margin: 0 100px 100px 100px;
+}
+
+.platform-image img {
+  
+  background-size: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 0;
+  right: 0;
+
+}
+
+#platforms {
+
+  position: relative;
+  margin: 0 auto 0;
+  left: 0;
+  right: 0;
+
+}
+
+.platform-description {
+
+  text-align: center;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  display: block;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px var(--primary-color);
+}
+
+#wrapper p {
+  position:relative;
+  z-index: 2000;
+  visibility: hidden;
+  width: 100%;
+}
+
+.nav-item .nav-link {
+  font-weight: 700;
+  color:white;
+}
+
+.custom-btn {
+
+  color: white;
+  font-weight: 700;
+}
+
+.bordered {
+  font-weight: 700;
+  border: 1px solid var(--button-text-color);
+  color: var(--button-text-color);
+}
+
+.custom-btn:hover {
+  color: var(--button-text-color);
+}
+
+.bordered:hover {
+  color: var(--button-text-color);
+  background-color: white;
+}
+
+.bg-color {
+  color: var(--primary-color);
+}
+
+strong.d-block {
+  color:var(--button-text-color);
+}
+
+.team-info {
+  background:#8de4ffff;
+}
+
+.list-group {
+  margin-bottom: 10px;
+}
+
+.list-group .list-group-item {
+  padding: 0.25;
+  border: none;
+}
+
+.team-member-logo {
+
+  background-size: cover;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  padding-left: auto;
+  margin-left: 5%;
+  margin-right: 100px;
+}
+
+.team-member-name {
+
+  position: relative;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  padding-left: auto;
+
+}
+
+.bg-overlay {
+  background-size: cover;
+  box-sizing: border-box;
+  background-image: url("../images/intro.jpg");
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+}
+
+
+img.gallery-image {
+
+  width: 95%;
+  margin: 2%;
+  height: 300px;
+  
+}
+
+div.image {
+
+  margin-top: 2%;
+  background-color: var(--primary-color);
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.intro {
+  background-image: url('../images/intro.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  min-height: 100vh;
+  position: relative;
+}
+
+.membership {
+  background: var(--primary-color);
+  padding: 5rem 0;
+}
+
+div.caption {
+
+  position: relative;
+  left: auto;
+  right: auto;
+  padding: 5px;
+  margin: 0.5rem;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+
+}
+
+.map {
+  padding: 10px;
+  border-top: 1px solid #efebeb;
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+}
+
+.webform input,
+button#submit-button {
+  height: calc(2.25rem + 20px);
+}
+
+.form-control {
+  border-radius: var(--border-radius-small);
+  margin: 1.3rem 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: var(--secondary-color);
+}
+
+.subscribe-btn {
+  background: var(--secondary-color);
+  border-radius: 2px;
+  padding: 14px 24px;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-align: center;
+  border: none;
+}
+
+.subscribe-btn:hover {
+  background-color: white;
+  color: var(--button-text-color);
+}
+
+.subscribe-btn:focus {
+  box-shadow: none;
+}
+
+.sendmessage-btn {
+  background: black;
+  border-radius: 2px;
+  padding: 14px 24px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  border: none;
+  width: 100%;
+}
+
+.sendmessage-btn:hover {
+  background-color: var(--button-text-color);
+}
+
+.sendmessage-btn:focus {
+  box-shadow: none;
+}
+
+.footer-style {
+  
+  border-top: 1px solid black;
+  background-color: var(--primary-color) ;
+  width: 100%;
+  padding: 2.5rem;
+
+}
+
+.text {
+  color: white;
+  text-align: center;
+}
+
+.vertical-line {
+
+  margin: -5 auto;
+  width: 2px;
+  height: 100px;
+  background-color: var(--primary-color);
+
+}
+
+.horizontal-line {
+
+  margin-top: 20px;
+  width: 30%;
+  height: 2px;
+  background-color: black;
+  position: relative;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+}
+
+.horizontal-line-wider {
+
+  margin-top: 20px;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  position: relative;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+}
+
+.navbar-toggler {
+
+  position: relative;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  margin: 0;
+  width: 10px;
+  height: 10px;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background: transparent;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background: var(--button-text-color);
+  display: block;
+  width: 30px;
+  height: 2px;
+  position: relative;
+}
+
+.navbar-toggler .navbar-toggler-icon::before,
+.navbar-toggler .navbar-toggler-icon::after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  background: var(--button-text-color);
+  width: 30px;
+  height: 2px;
+  content: '';
+}
+
+.navbar-toggler .navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.navbar-toggler .navbar-toggler-icon::after {
+  top: 8px;
+}
+
+
+
+
